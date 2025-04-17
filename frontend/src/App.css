@@ -1,0 +1,65 @@
+/*
+Die folgenden CSS-Regeln definieren das Styling für verschiedene Elemente der Webanwendung:
+
+- .App: Zentriert den Inhalt der gesamten Anwendung.
+*/
+.App {
+  text-align: center;
+}
+
+/*
+- .App-logo: Definiert die Höhe des Logos relativ zur Viewport-Höhe 
+(40vmin) und deaktiviert Ereignisse für das Element.
+*/
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/*
+- @media (prefers-reduced-motion: no-preference): Eine Medienabfrage, die prüft, 
+ob der Benutzer eine Vorliebe für reduzierte Bewegungseffekte hat. Wenn keine Präferenz besteht, 
+wird eine endlose Rotation des Logos über eine Animationsregel (App-logo-spin) definiert.
+*/
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/*
+- .App-header: Stilisiert den Kopfbereich der Anwendung mit einer dunklen Hintergrundfarbe (#2b303a), 
+setzt die Mindesthöhe auf 100% der Viewport-Höhe, zentriert den Inhalt vertikal und horizontal, 
+definiert die Schriftgröße basierend auf der Viewport-Größe und setzt die Textfarbe auf Weiß.
+*/
+.App-header {
+  background-color: #2b303a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/*
+- .App-link: Definiert die Farbe für Links in der Anwendung (#59d7fa).
+*/
+.App-link {
+  color: #59d7fa;
+}
+
+/*
+- @keyframes App-logo-spin: Definiert die Keyframes für die Animation des Logos. 
+Startet bei 0 Grad Rotation und endet bei 360 Grad Rotation, 
+um eine kontinuierliche Drehung zu erzeugen.
+*/
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

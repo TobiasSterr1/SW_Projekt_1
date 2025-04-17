@@ -1,0 +1,19 @@
+/*
+Diese CSS-Regeln definieren die Standardschriftarten für den gesamten Körper einer Webseite.
+Der `body` verwendet eine systemeigene Schriftart mit einer Priorität für Plattformen wie Apple-Systeme und Windows.
+Der `code`-Bereich verwendet eine monospaced Schriftart, die für die Darstellung von Quellcode optimiert ist.
+*/
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
