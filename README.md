@@ -1,16 +1,3 @@
-# sw-praktikum-ss24-gruppe12
-
-### TEAM 12
-
-![img.png](img.png)
-
-Willi Koljada, 38574  
-Nadjibullah Mobinzada Josofzai, 39952  
-Svyatoslav Kitayev, 42323  
-Ismail Ekinci, 40127
-Tobias Sterr, 40221  
-Emirhan Bozkurt, 42776
-
 ### Requirements Programms
 - PyCharm
 - Visual Studio Code
